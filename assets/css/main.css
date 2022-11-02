@@ -301,7 +301,7 @@ section {
 
 
 /*--------------------------------------------------------------
-# Desktop Navigation 
+# Desktop Navigation
 --------------------------------------------------------------*/
 
 @media (min-width: 1280px) {
@@ -569,7 +569,7 @@ section {
 .hero-animated {
     width: 100%;
     min-height: 50vh;
-    background: url("../img/hero-bg.png") center center;
+    background: url("../img/new-hero-bg.JPG") center center;
     background-size: cover;
     position: relative;
     padding: 120px 0 60px;
@@ -584,14 +584,16 @@ section {
 }
 
 .hero-animated h2 span {
-    color: var(--color-primary);
+    color: gold;
+    text-shadow: 2px 2px #000000;
 }
 
 .hero-animated p {
-    color: rgba(var(--color-secondary-rgb), 0.8);
+    color: gold;
     margin: 0 0 30px 0;
     font-size: 20px;
     font-weight: 400;
+    text-shadow: 2px 2px #000000;
 }
 
 .hero-animated .animated {
@@ -3299,4 +3301,71 @@ section {
 .footer .footer-legal .social-links a:hover {
     background: var(--color-primary);
     text-decoration: none;
+}
+
+
+/*new*/
+
+.new-contact .info {
+    padding: 20px;
+    box-shadow: 0px 2px 15px rgba(var(--color-black-rgb), 0.1);
+    overflow: hidden;
+    text-align: center;
+}
+
+.new-contact .info h3 {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.new-contact .info p {
+    color: var(--color-secondary-light);
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+
+.new-contact .info-item+.info-item {
+    padding-top: 20px;
+    margin-top: 20px;
+    border-top: 1px solid rgba(var(--color-secondary-rgb), 0.15);
+}
+
+.new-contact .info-item i {
+    font-size: 24px;
+    color: var(--color-primary);
+    transition: all 0.3s ease-in-out;
+    margin-right: 20px;
+}
+
+.new-contact .info-item h4 {
+    padding: 0;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: var(--color-secondary);
+}
+
+.new-contact .info-item p {
+    padding: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: var(--color-secondary-light);
+}
+
+@-webkit-keyframes animate-loading {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes animate-loading {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
