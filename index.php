@@ -289,7 +289,7 @@
                                 <div class="icon">
                                     <i class="bi bi-activity"></i>
                                 </div>
-                                <a href="index.html#services" class="stretched-link">
+                                <a href="index.php#services" class="stretched-link">
                                     <h3>Out of School Youth.</h3>
                                 </a>
                                 <p><i class="bi bi-check2"></i>Alternative Learning System for Junior High School and Elementary Level </p>
@@ -317,7 +317,7 @@
                                 <div class="icon">
                                     <i class="bi bi-broadcast"></i>
                                 </div>
-                                <a href="index.html#services" class="stretched-link">
+                                <a href="index.php#services" class="stretched-link">
                                     <h3>Person with Disabilities(Residents) and Elderly.</h3>
                                 </a>
                                 <p><i class="bi bi-check2"></i>Homelife Services </p>
