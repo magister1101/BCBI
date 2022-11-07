@@ -179,7 +179,7 @@
 
                     <div class="col-lg-5">
                         <div class="about-img">
-                            <img src="assets/img/aboutGrad.jpg" class="img-fluid" alt="">
+                            <img src="assets/img/bcbi/gadpic.JPG" class="img-fluid" alt="">
                         </div>
                     </div>
 
