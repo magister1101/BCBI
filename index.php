@@ -179,7 +179,7 @@
 
                     <div class="col-lg-5">
                         <div class="about-img">
-                            <img src="assets/img/aboutPlaceholder.png" class="img-fluid" alt="">
+                            <img src="assets/img/aboutGrad.jpg" class="img-fluid" alt="">
                         </div>
                     </div>
 
@@ -283,7 +283,7 @@
                     <div class="col-xl-6 col-md-5" data-aos="zoom-in" data-aos-delay="300">
                         <div class="service-item">
                             <div class="img">
-                                <img src="assets/img/services-1.jpg" class="img-fluid" alt="">
+                                <img src="assets/img/ser1.jpg" class="img-fluid" alt="">
                             </div>
                             <div class="details position-relative">
                                 <div class="icon">
@@ -311,7 +311,7 @@
                     <div class="col-xl-6 col-md-6" data-aos="zoom-in" data-aos-delay="300">
                         <div class="service-item">
                             <div class="img">
-                                <img src="assets/img/services-2.jpg" class="img-fluid" alt="">
+                                <img src="assets/img/ser2.jpg" class="img-fluid" alt="">
                             </div>
                             <div class="details position-relative">
                                 <div class="icon">
