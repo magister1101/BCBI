@@ -59,7 +59,7 @@
 
                     <li><a class="nav-link scrollto" href="index.php">Home</a></li>
                     <li><a class="nav-link scrollto" href="index.html#about">About</a></li>
-                    <li><a class="nav-link scrollto" href="index.html#services">Services</a></li>
+                    <li><a class="nav-link scrollto" href="index.html#services">Programs</a></li>
                     <li><a class="nav-link scrollto" href="index.html#team">History</a></li>
                     <li><a class="nav-link scrollto" href="index.html#contact">Contact</a></li>
                 </ul>
@@ -130,36 +130,12 @@
     <main id="main">
 
         <!-- ======= Featured Services Section ======= -->
+        <!-- in back up -->
+        <!-- End Service Item -->
 
-        <section id="featured-services" class="featured-services">
-            <div class="container">
+        </div>
 
-                <div class="row gy-4">
-                    <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out" data-aos-delay="200">
-                    </div>
-                    <!-- End Service Item -->
-
-                    <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out">
-                        <div class="service-item position-relative">
-                            <div class="icon"><i class=""></i></div>
-                            <h4><a href="index.php" class="stretched-link">Out of School Youth</a></h4>
-                            <p>Alternative Learning System for Junior High School and Elementary Level.</p>
-                        </div>
-                    </div>
-                    <!-- End Service Item -->
-
-                    <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out" data-aos-delay="400">
-                        <div class="service-item position-relative">
-                            <div class="icon"><i class=""></i></div>
-                            <h4><a href="index.php" class="stretched-link">Person with Disabilities(Residents) and Elderly.</a></h4>
-                            <p>Must be Junior High School Level but not Grade 10 completers.</p>
-                        </div>
-                    </div>
-                    <!-- End Service Item -->
-
-                </div>
-
-            </div>
+        </div>
         </section>
         <!-- End Featured Services Section -->
 
@@ -169,20 +145,41 @@
 
                 <div class="section-header">
                     <h2>About Us</h2>
-                    <p>TThe BROTHERS OF CHRIST OF BANNEUX, INC. (BCBI) is a religious congregation for boys founded by the servant of God Venerable Aloysius Schwartz to respond to the reality of poverty, suffering and deprivation of the poorest of the poor.
-                        The BCBI in the Philippines is operating as Social Welfare and Development Agency under the supervision of Department of Social Welfare and Development (DSWD) with SEC reg. #CN200815107 and license #DSWD -FO-IV-A L-00029-2020.The
-                        programs and services offered by BCBI is 24 hours residential based services for Out of School Youth. The institution provides a comprehensive and integrated delivery of residential care services using interdisciplinary approach.
-                        The Brothers of Christ works primarily by establishing Brothers of Christ of Bannuex Inc. (boy’s town) that serves as boarding schools for deserving out of school youth students coming from poor families. The institution provides
-                        food, clothing, shelter, medical care and quality secondary education through Alternative Learning System and technical-vocational curriculum, all free of charge.
-
+                    <p id="shortOP1" style="display: block; text-align: center;">BCBI is a religious congregation for boys founded by the servant of God Venerable Aloysius Schwartz to respond to the reality of poverty</p>
+                    <p id="longOP1" style="display:none;">BCBI is a religious congregation for boys founded by the servant of God Venerable Aloysius Schwartz to respond to the reality of poverty, suffering and deprivation of the poorest of the poor. The BCBI in the Philippines is operating
+                        as Social Welfare and Development Agency under the supervision of Department of Social Welfare and Development (DSWD) with SEC reg. #CN200815107 and license #DSWD -FO-IV-A L-00029-2020.The programs and services offered by BCBI
+                        is 24 hours residential based services for Out of School Youth. The institution provides a comprehensive and integrated delivery of residential care services using interdisciplinary approach. The Brothers of Christ works primarily
+                        by establishing Brothers of Christ of Bannuex Inc. (boy’s town) that serves as boarding schools for deserving out of school youth students coming from poor families. The institution provides food, clothing, shelter, medical care
+                        and quality secondary education through Alternative Learning System and technical-vocational curriculum, all free of charge.
                     </p>
+                    <button onclick="myFunction1()" id="myBtn1">See more.</button>
+
+                    <script>
+                        function myFunction1() {
+
+                            var lessText1 = document.getElementById("shortOP1");
+                            var moreText1 = document.getElementById("longOP1");
+
+                            var btnText1 = document.getElementById("myBtn1");
+
+                            if (moreText1.style.display === "none") {
+                                moreText1.style.display = "block";
+                                lessText1.style.display = "none";
+                                btnText1.innerHTML = "See less.";
+                            } else {
+                                moreText1.style.display = "none";
+                                lessText1.style.display = "block";
+                                btnText1.innerHTML = "See more.";
+                            }
+                        }
+                    </script>
                 </div>
 
                 <div class="row g-4 g-lg-5" data-aos="fade-up" data-aos-delay="200">
 
                     <div class="col-lg-5">
                         <div class="about-img">
-                            <img src="assets/img/aboutPlaceholder.png" class="img-fluid" alt="">
+                            <img src="assets/img/bcbi/gadpic.JPG" class="img-fluid" alt="">
                         </div>
                     </div>
 
@@ -249,143 +246,91 @@
             <div class="container" data-aos="fade-up">
 
                 <div class="section-header">
-                    <h2>Our Services</h2>
-                    <p>Ea vitae aspernatur deserunt voluptatem impedit deserunt magnam occaecati dssumenda quas ut ad dolores adipisci aliquam.</p>
+                    <h2>Our Programs</h2>
+
+                    <p id="shortOP" style="display: block; text-align: center;">BCBI is a residential care for Out of School Youth and the physically and mentally challenged men and elderly.</p>
+
+                    <p id="longOP" style="display: none;">BCBI is a residential care for Out of School Youth and the physically and mentally challenged men and elderly. Developmental trainings are geared towards motivating, developing and enhancing the hidden underdeveloped potentials of
+                        the clients i.e. their skills, abilities, capacities, capabilities and strength. The ultimate goal of this program is to train them to use their capacities and capabilities to the fullest in order that they become independent and
+                        self-efficient individuals in the future and to provide clean and adequate residence. The training entails holistic approach with emphasis on all aspects; physical, mental, moral, spiritual, emotional and social under the supervision
+                        of the Director, registered social workers, Religious Brothers and Instructors.
+                    </p>
+                    <button onclick="myFunction()" id="myBtn">See more.</button>
+
+                    <script>
+                        function myFunction() {
+
+                            var lessText = document.getElementById("shortOP");
+                            var moreText = document.getElementById("longOP");
+
+                            var btnText = document.getElementById("myBtn");
+
+                            if (moreText.style.display === "none") {
+                                moreText.style.display = "block";
+                                lessText.style.display = "none";
+                                btnText.innerHTML = "See less.";
+                            } else {
+                                moreText.style.display = "none";
+                                lessText.style.display = "block";
+                                btnText.innerHTML = "See more.";
+                            }
+                        }
+                    </script>
                 </div>
 
                 <div class="row gy-5">
 
-                    <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="col-xl-6 col-md-5" data-aos="zoom-in" data-aos-delay="300">
                         <div class="service-item">
                             <div class="img">
-                                <img src="assets/img/services-1.jpg" class="img-fluid" alt="">
+                                <img src="assets/img/bcbi/students.JPG" class="img-fluid" alt="">
                             </div>
                             <div class="details position-relative">
                                 <div class="icon">
-                                    <i class="bi bi-activity"></i>
+                                    <i class="bi bi-journal-bookmark"></i>
                                 </div>
-                                <a href="#" class="stretched-link">
-                                    <h3>Home life services</h3>
+                                <a href="index.php#services" class="stretched-link">
+                                    <h3>Out of School Youth.</h3>
                                 </a>
-                                <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis.</p>
+                                <p><i class="bi bi-check2"></i>Alternative Learning System for Junior High School and Elementary Level </p>
+                                <p><i class="bi bi-check2"></i>Technical Vocational Training </p>
+                                <p><i class="bi bi-check2"></i>Electrical Installation and Maintenance NC ll </p>
+                                <p><i class="bi bi-check2"></i>Shielded Metal Arc in Welding NC l and NC ll </p>
+                                <p><i class="bi bi-check2"></i>Job Placement </p>
+                                <h3>Qualification:</h3>
+                                <p>Male </p>
+                                <p>Must be Junior High School Level but not Grade 10 completers </p>
+                                <p>16 to 25 years old</p>
+                                <p>Physically, Mentally, and Spiritually fit</p>
+                                <p>From low income family </p>
                             </div>
                         </div>
                     </div>
                     <!-- End Service Item -->
 
-                    <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="col-xl-6 col-md-6" data-aos="zoom-in" data-aos-delay="300">
                         <div class="service-item">
                             <div class="img">
-                                <img src="assets/img/services-2.jpg" class="img-fluid" alt="">
+                                <img src="assets/img/bcbi/pwd.jpg" class="img-fluid" alt="">
                             </div>
                             <div class="details position-relative">
                                 <div class="icon">
-                                    <i class="bi bi-broadcast"></i>
+                                    <i class="bi bi-diagram-2"></i>
                                 </div>
-                                <a href="#" class="stretched-link">
-                                    <h3>Dietary services</h3>
+                                <a href="index.php#services" class="stretched-link">
+                                    <h3>Person with Disabilities(Residents) and Elderly.</h3>
                                 </a>
-                                <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
+                                <p><i class="bi bi-check2"></i>Homelife Services </p>
+                                <p><i class="bi bi-check2"></i>Dietary Services </p>
+                                <p><i class="bi bi-check2"></i>Health Services</p>
+                                <p><i class="bi bi-check2"></i>Psychological Services </p>
+                                <p><i class="bi bi-check2"></i>Spiritual Services</p>
+                                <h3><br></h3>
+                                <br><br><br><br><br>
                             </div>
                         </div>
                     </div>
                     <!-- End Service Item -->
-
-                    <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="600">
-                        <div class="service-item">
-                            <div class="img">
-                                <img src="assets/img/services-3.jpg" class="img-fluid" alt="">
-                            </div>
-                            <div class="details position-relative">
-                                <div class="icon">
-                                    <i class="bi bi-easel"></i>
-                                </div>
-                                <a href="#" class="stretched-link">
-                                    <h3>Spiritual services</h3>
-                                </a>
-                                <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Service Item -->
-
-                    <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="800">
-                        <div class="service-item">
-                            <div class="img">
-                                <img src="assets/img/services-4.jpg" class="img-fluid" alt="">
-                            </div>
-                            <div class="details position-relative">
-                                <div class="icon">
-                                    <i class="bi bi-bounding-box-circles"></i>
-                                </div>
-                                <a href="#" class="stretched-link">
-                                    <h3>Health services</h3>
-                                </a>
-                                <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>
-                                <a href="#" class="stretched-link"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Service Item -->
-
-                    <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="1000">
-                        <div class="service-item">
-                            <div class="img">
-                                <img src="assets/img/services-5.jpg" class="img-fluid" alt="">
-                            </div>
-                            <div class="details position-relative">
-                                <div class="icon">
-                                    <i class="bi bi-calendar4-week"></i>
-                                </div>
-                                <a href="#" class="stretched-link">
-                                    <h3>Psychological Services</h3>
-                                </a>
-                                <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p>
-                                <a href="#" class="stretched-link"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Service Item -->
-
-                    <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="1200">
-                        <div class="service-item">
-                            <div class="img">
-                                <img src="assets/img/services-6.jpg" class="img-fluid" alt="">
-                            </div>
-                            <div class="details position-relative">
-                                <div class="icon">
-                                    <i class="bi bi-chat-square-text"></i>
-                                </div>
-                                <a href="#" class="stretched-link">
-                                    <h3>Alternative Learning System (ALS) </h3>
-                                </a>
-                                <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p>
-                                <a href="#" class="stretched-link"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Service Item -->
-
-                    <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="1400">
-                        <div class="service-item">
-                            <div class="img">
-                                <img src="assets/img/services-6.jpg" class="img-fluid" alt="">
-                            </div>
-                            <div class="details position-relative">
-                                <div class="icon">
-                                    <i class="bi bi-chat-square-text"></i>
-                                </div>
-                                <a href="#" class="stretched-link">
-                                    <h3>Technical Vocational Training </h3>
-                                </a>
-                                <p>•Electrical Installation and Maintenance NC ll
-                                    <br> • Shielded Metal Arc in Welding NC l and NC ll </p>
-                                <a href="#" class="stretched-link"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Service Item -->
-
                 </div>
 
             </div>
@@ -522,16 +467,17 @@
                         <h4>Useful Links</h4>
                         <ul>
                             <li><i class="bi bi-chevron-right "></i> <a href="index.html ">Home</a></li>
-                            <li><i class="bi bi-chevron-right "></i> <a href="index.html#about ">About us</a></li>
-                            <li><i class="bi bi-chevron-right "></i> <a href="index.html#team ">Team</a></li>
+                            <li><i class="bi bi-chevron-right "></i> <a href="index.html#about ">About</a></li>
+                            <li><i class="bi bi-chevron-right "></i> <a href="index.html#services">Programs</a></li>
+                            <li><i class="bi bi-chevron-right "></i> <a href="index.html#team ">History</a></li>
                             <li><i class="bi bi-chevron-right "></i> <a href="index.html#contact ">Contact</a></li>
                         </ul>
                     </div>
 
                     <div class="col-lg-3 col-md-6 footer-links ">
-                        <h4>Our Services</h4>
+                        <h4>Our Programs</h4>
                         <ul>
-                            <li><i class="bi bi-chevron-right "></i> <a href="index.html#services ">Services</a></li>
+                            <li><i class="bi bi-chevron-right "></i> <a href="index.html#services ">Program</a></li>
 
                         </ul>
                     </div>
