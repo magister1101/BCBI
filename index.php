@@ -287,7 +287,7 @@
                             </div>
                             <div class="details position-relative">
                                 <div class="icon">
-                                    <i class="bi bi-activity"></i>
+                                    <i class="bi bi-journal-bookmark"></i>
                                 </div>
                                 <a href="index.php#services" class="stretched-link">
                                     <h3>Out of School Youth.</h3>
@@ -315,7 +315,7 @@
                             </div>
                             <div class="details position-relative">
                                 <div class="icon">
-                                    <i class="bi bi-broadcast"></i>
+                                    <i class="bi bi-diagram-2"></i>
                                 </div>
                                 <a href="index.php#services" class="stretched-link">
                                     <h3>Person with Disabilities(Residents) and Elderly.</h3>
