@@ -76,7 +76,7 @@
     <section id="hero-animated" class="hero-animated d-flex align-items-center">
         <div class="container d-flex flex-column justify-content-center align-items-center text-center position-relative" data-aos="zoom-out">
             <img src="assets/img/hero-carousel/BococINC.png" class="img-fluid animated">
-            <h2><span>Brother of Christ of Banneux, Inc.</span></h2>
+            <h2><span>Brothers of Christ of Banneux, Inc.</span></h2>
             <p>Sharing Christ's Home.</p>
             <div class="d-flex">
                 <a href="#about" class="btn-get-started scrollto">Show more</a>
@@ -280,7 +280,7 @@
 
                 <div class="row gy-5">
 
-                    <div class="col-xl-6 col-md-5" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="col-xl-6 col-md-6" data-aos="zoom-in" data-aos-delay="300">
                         <div class="service-item">
                             <div class="img">
                                 <img src="assets/img/bcbi/students.JPG" class="img-fluid" alt="">
@@ -289,15 +289,21 @@
                                 <div class="icon">
                                     <i class="bi bi-journal-bookmark"></i>
                                 </div>
-                                <a href="index.php#services" class="stretched-link">
-                                    <h3>Out of School Youth.</h3>
-                                </a>
+
+
+
+                                <!-- Trigger/Open The Modal -->
+                                <button id="modalbtn" class="stretched-link"><h3>Out of School Youth.</h3></button>
+
+
+
+
                                 <p><i class="bi bi-check2"></i>Alternative Learning System for Junior High School and Elementary Level </p>
                                 <p><i class="bi bi-check2"></i>Technical Vocational Training </p>
                                 <p><i class="bi bi-check2"></i>Electrical Installation and Maintenance NC ll </p>
                                 <p><i class="bi bi-check2"></i>Shielded Metal Arc in Welding NC l and NC ll </p>
                                 <p><i class="bi bi-check2"></i>Job Placement </p>
-                                <h3>Qualification:</h3>
+                                <h3>Qualifications:</h3>
                                 <p>Male </p>
                                 <p>Must be Junior High School Level but not Grade 10 completers </p>
                                 <p>16 to 25 years old</p>
@@ -317,9 +323,10 @@
                                 <div class="icon">
                                     <i class="bi bi-diagram-2"></i>
                                 </div>
-                                <a href="index.php#services" class="stretched-link">
-                                    <h3>Person with Disabilities(Residents) and Elderly.</h3>
-                                </a>
+
+                                <!-- Trigger/Open The Modal -->
+                                <button id="modalbtn1" class="stretched-link"><h3>Person with Disabilities(Residents) and Elderly.</h3></button>
+
                                 <p><i class="bi bi-check2"></i>Homelife Services </p>
                                 <p><i class="bi bi-check2"></i>Dietary Services </p>
                                 <p><i class="bi bi-check2"></i>Health Services</p>
@@ -333,7 +340,133 @@
                     <!-- End Service Item -->
                 </div>
 
+
             </div>
+            <!-- The Modal service 1-->
+            <div id="myModal" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <img id="pic1" style="display: block;" src="assets/img/bcbi/EIM1.JPG">
+                    <img id="pic2" style="display: none;" src="assets/img/bcbi/EIM2.jpg">
+                    <button onclick="bot()" id="bott">Next</button>
+
+                    <script>
+                        function bot() {
+
+                            var pic1 = document.getElementById("pic1");
+                            var pic2 = document.getElementById("pic2");
+
+                            var bott = document.getElementById("bott");
+
+                            if (pic2.style.display === "none") {
+                                pic2.style.display = "block";
+                                pic1.style.display = "none";
+                                bott.innerHTML = "Previous";
+                            } else {
+                                pic2.style.display = "none";
+                                pic1.style.display = "block";
+                                bott.innerHTML = "Next";
+                            }
+                        }
+                    </script>
+                </div>
+
+            </div>
+            <script>
+                // Get the modal
+                var modal = document.getElementById("myModal");
+
+                // Get the button that opens the modal
+                var btn = document.getElementById("modalbtn");
+
+                // Get the <span> element that closes the modal
+                var span = document.getElementsByClassName("close")[0];
+
+                // When the user clicks the button, open the modal
+                btn.onclick = function() {
+                    modal.style.display = "block";
+                }
+
+                // When the user clicks on <span> (x), close the modal
+                span.onclick = function() {
+                    modal.style.display = "none";
+                }
+
+                // When the user clicks anywhere outside of the modal, close it
+                window.onclick = function(event) {
+                    if (event.target == modal) {
+                        modal.style.display = "none";
+                    }
+                }
+            </script>
+
+            <br>
+
+            <!-- The Modal service 2-->
+            <div id="myModal1" class="modal1">
+
+                <!-- Modal content -->
+                <div class="modal-content1">
+                    <span class="close1">&times;</span>
+                    <img id="pop1" style="display: block;" src="assets/img/bcbi/pwdpop1.JPG">
+                    <img id="pop2" style="display: none;" src="assets/img/bcbi/pwdpop2.JPG">
+                    <button onclick="popop()" id="popp">Next</button>
+
+                    <script>
+                        function popop() {
+
+                            var pop1 = document.getElementById("pop1");
+                            var pop2 = document.getElementById("pop2");
+
+                            var popp = document.getElementById("popp");
+
+                            if (pop2.style.display === "none") {
+                                pop2.style.display = "block";
+                                pop1.style.display = "none";
+                                popp.innerHTML = "Previous";
+                            } else {
+                                pop2.style.display = "none";
+                                pop1.style.display = "block";
+                                popp.innerHTML = "Next";
+                            }
+                        }
+                    </script>
+                </div>
+
+            </div>
+            <script>
+                // Get the modal
+                var modal1 = document.getElementById("myModal1");
+
+                // Get the button that opens the modal
+                var btn1 = document.getElementById("modalbtn1");
+
+                // Get the <span> element that closes the modal
+                var span1 = document.getElementsByClassName("close1")[0];
+
+                // When the user clicks the button, open the modal
+                btn1.onclick = function() {
+                    modal1.style.display = "block";
+                }
+
+                // When the user clicks on <span> (x), close the modal
+                span1.onclick = function() {
+                    modal1.style.display = "none";
+                }
+
+                // When the user clicks anywhere outside of the modal, close it
+                window.onclick = function(event) {
+                    if (event.target == modal) {
+                        modal1.style.display = "none";
+                    }
+                }
+            </script>
+
+
+
+
         </section>
         <!-- End Services Section -->
         <!-- ======= History Section ======= -->

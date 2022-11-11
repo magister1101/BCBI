@@ -3413,3 +3413,165 @@ section {
         transform: rotate(360deg);
     }
 }
+
+
+/* The Modal (background) */
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+#modalbtn {
+    border: none;
+}
+
+
+/* Modal Content/Box */
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 50% auto;
+    /* 15% from the top and centered */
+    padding: 15px auto;
+    border: 1px solid #888;
+    width: 50%;
+    animation: skew 0.5s forwards;
+    /* Could be more or less, depending on screen size */
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+/* The Close Button */
+
+.close {
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#bott,
+#bott:focus {
+    border: none;
+    margin: 5px auto;
+    font-size: 16px;
+    color: var(--color-white);
+    background: var(--color-primary);
+    padding: 8px 23px;
+    border-radius: 4px;
+    transition: 0.3s;
+    font-family: var(--font-secondary);
+}
+
+#bott:hover,
+#bott:hover:focus {
+    color: var(--color-white);
+    background: rgba(var(--color-primary-rgb), 0.85);
+}
+
+
+/* The Modal (background) */
+
+.modal1 {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+#modalbtn1 {
+    border: none;
+}
+
+
+/* Modal Content/Box */
+
+.modal-content1 {
+    background-color: #fefefe;
+    margin: 50% auto;
+    /* 15% from the top and centered */
+    padding: 15px auto;
+    border: 1px solid #888;
+    width: 50%;
+    animation: skew 0.5s forwards;
+    /* Could be more or less, depending on screen size */
+    text-align: center;
+    border-radius: 10px;
+}
+
+.modal-content1 img {
+    width: 100%;
+}
+
+
+/* The Close Button */
+
+.close1 {
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close1:hover,
+.close1:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#popp,
+#popp:focus {
+    border: none;
+    margin: 5px auto;
+    font-size: 16px;
+    color: var(--color-white);
+    background: var(--color-primary);
+    padding: 8px 23px;
+    border-radius: 4px;
+    transition: 0.3s;
+    font-family: var(--font-secondary);
+}
+
+#popp:hover,
+#popp:hover:focus {
+    color: var(--color-white);
+    background: rgba(var(--color-primary-rgb), 0.85);
+}
