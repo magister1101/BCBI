@@ -471,11 +471,11 @@
                             <h3 style="color: var(--color-default);font-weight: 700;margin: 10px 0 15px 0;font-size: 24px;transition: ease-in-out 0.3s;">Homelife Services</h3>
                         </div>
                         <div class="column24">
-                            <img src="/assets/img/bcbi/galery/pwdpsych1.JPG" style="width:100%;" onclick="myFunction(this);">
+                            <img src="/assets/img/bcbi/galery/pwdpsych1.jpg" style="width:100%;" onclick="myFunction(this);">
                             <h3 style="color: var(--color-default);font-weight: 700;margin: 10px 0 15px 0;font-size: 24px;transition: ease-in-out 0.3s;">Dietary Services</h3>
                         </div>
                         <div class="column24">
-                            <img src="/assets/img/bcbi/galery/pwdpsych1.JPG" style="width:100%" onclick="myFunction(this);">
+                            <img src="/assets/img/bcbi/galery/pwdpsych1.jpg" style="width:100%" onclick="myFunction(this);">
                             <h3 style="color: var(--color-default);font-weight: 700;margin: 10px 0 15px 0;font-size: 24px;transition: ease-in-out 0.3s;">Psychological Services</h3>
                         </div>
                         <div class="column24">
