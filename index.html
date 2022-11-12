@@ -39,6 +39,58 @@
 
     <!-- Template Main CSS File -->
     <link href="assets/css/main.css" rel="stylesheet">
+    <style>
+        .column24 {
+            float: left;
+            width: 25%;
+            padding: 10px;
+        }
+        /* Style the images inside the grid */
+        
+        .column24 img {
+            opacity: 0.8;
+            cursor: pointer;
+        }
+        
+        .column24 img:hover {
+            opacity: 1;
+        }
+        /* Clear floats after the columns */
+        
+        .row24:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        /* The expanding image container */
+        
+        .container24 {
+            position: relative;
+            display: none;
+        }
+        /* Expanding image text */
+        
+        #imgtext24 {
+            position: absolute;
+            bottom: 15px;
+            left: 15px;
+            color: white;
+            font-size: 20px;
+        }
+        /* Closable button inside the expanded image */
+        
+        .closebtn24 {
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            color: white;
+            font-size: 35px;
+            cursor: pointer;
+        }
+    </style>
+
+
+
 
 </head>
 
@@ -346,7 +398,7 @@
             <div id="myModal" class="modal">
 
                 <!-- Modal content -->
-                <div class="modal-content">
+                <div class="modal-content col-xl-12 col-md-12">
                     <span class="close">&times;</span>
                     <img id="pic1" style="display: block;" src="assets/img/bcbi/EIM1.JPG">
                     <img id="pic2" style="display: none;" src="assets/img/bcbi/EIM2.jpg">
@@ -367,7 +419,7 @@
                             } else {
                                 pic2.style.display = "none";
                                 pic1.style.display = "block";
-                                bott.innerHTML = "Next";
+                                bott.innerHTML = "Ne    xt";
                             }
                         }
                     </script>
@@ -410,9 +462,52 @@
                 <!-- Modal content -->
                 <div class="modal-content1">
                     <span class="close1">&times;</span>
-                    <img id="pop1" style="display: block;" src="assets/img/bcbi/pwdpop1.JPG">
-                    <img id="pop2" style="display: none;" src="assets/img/bcbi/pwdpop2.JPG">
-                    <button onclick="popop()" id="popp">Next</button>
+                    <!--<img id="pop1" style="display: block;" src="assets/img/bcbi/pwdpop1.JPG">-->
+                    <!--<img id="pop2" style="display: none;" src="assets/img/bcbi/pwdpop2.JPG">-->
+                    <!-- The four columns -->
+                    <div class="row24">
+                        <div class="column24">
+                            <img src="/assets/img/bcbi/galery/pwdhome1.jpg" id="defimg" style="width:100%" onclick="myFunction(this);">
+                            <h3 style="color: var(--color-default);font-weight: 700;margin: 10px 0 15px 0;font-size: 24px;transition: ease-in-out 0.3s;">Homelife Services</h3>
+                        </div>
+                        <div class="column24">
+                            <img src="assets/img/bcbi/galery/pwddiet.jpg" style="width:100%;" onclick="myFunction(this);">
+                            <h3 style="color: var(--color-default);font-weight: 700;margin: 10px 0 15px 0;font-size: 24px;transition: ease-in-out 0.3s;">Dietary Services</h3>
+                        </div>
+                        <div class="column24">
+                            <img src="/assets/img/bcbi/galery/pwdpsych1.JPG" style="width:100%" onclick="myFunction(this);">
+                            <h3 style="color: var(--color-default);font-weight: 700;margin: 10px 0 15px 0;font-size: 24px;transition: ease-in-out 0.3s;">Psychological Services</h3>
+                        </div>
+                        <div class="column24">
+                            <img src="/assets/img/bcbi/galery/pwdspirit.jpg" style="width:100%" onclick="myFunction(this);">
+                            <h3 style="color: var(--color-default);font-weight: 700;margin: 10px 0 15px 0;font-size: 24px;transition: ease-in-out 0.3s;">Spiritual Services</h3>
+                        </div>
+
+                    </div>
+
+                    <div class="container24">
+                        <span onclick="this.parentElement.style.display='none'" class="closebtn24">&times;</span>
+                        <img id="expandedImg" style="width:100%">
+                        <div id="imgtext"></div>
+                    </div>
+
+                    <script>
+                        var expandImg = document.getElementById("expandedImg");
+                        var imgs = document.getElementById("defimg");
+                        expandImg.src = imgs.src;
+                        expandImg.parentElement.style.display = "block";
+
+                        function myFunction(imgs) {
+                            var expandImg = document.getElementById("expandedImg");
+                            var imgText = document.getElementById("imgtext");
+                            expandImg.src = imgs.src;
+                            imgText.innerHTML = imgs.alt;
+                            expandImg.parentElement.style.display = "block";
+                        }
+                    </script>
+
+
+                    <!--<button onclick="popop()" id="popp">Next</button>-->
 
                     <script>
                         function popop() {
