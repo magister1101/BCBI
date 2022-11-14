@@ -3564,6 +3564,14 @@ screen and (max-height: 889px) {
     border-radius: 10px;
 }
 
+.modal-content1 h3 {
+    color: var(--color-default);
+    font-weight: 700;
+    margin: 10px 0 15px 0;
+    font-size: 16px;
+    transition: ease-in-out 0.3s;
+}
+
 @media only screen and (max-width: 767px),
 screen and (max-height: 889px) {
     .modal-content1 {
@@ -3579,6 +3587,10 @@ screen and (max-height: 889px) {
         /* Could be more or less, depending on screen size */
         text-align: center;
         border-radius: 10px;
+    }
+    .modal-content1 h3 {
+        font-size: 75%;
+        ;
     }
 }
 
