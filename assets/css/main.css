@@ -3478,7 +3478,8 @@ screen and (max-height: 889px) {
     }
 }
 
-.container24 {
+.container24,
+.container25 {
     margin: 20px;
     width: auto;
 }
@@ -3589,6 +3590,28 @@ screen and (max-height: 889px) {
         border-radius: 10px;
     }
     .modal-content1 h3 {
+        font-size: 75%;
+        ;
+    }
+}
+
+@media only screen and (max-width: 767px),
+screen and (max-height: 889px) {
+    .modal-content {
+        background-color: #fefefe;
+        margin-top: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        /* 15% from the top and centered */
+        padding: 15px auto;
+        border: 1px solid #888;
+        width: 90%;
+        animation: skew 0.5s forwards;
+        /* Could be more or less, depending on screen size */
+        text-align: center;
+        border-radius: 10px;
+    }
+    .modal-content h3 {
         font-size: 75%;
         ;
     }

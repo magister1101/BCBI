@@ -87,6 +87,54 @@
             font-size: 35px;
             cursor: pointer;
         }
+        
+        .column25 {
+            float: left;
+            width: 25%;
+            padding: 10px;
+        }
+        /* Style the images inside the grid */
+        
+        .column25 img {
+            opacity: 0.8;
+            cursor: pointer;
+        }
+        
+        .column25 img:hover {
+            opacity: 1;
+        }
+        /* Clear floats after the columns */
+        
+        .row25:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        /* The expanding image container */
+        
+        .container25 {
+            position: relative;
+            display: none;
+        }
+        /* Expanding image text */
+        
+        #imgtext25 {
+            position: absolute;
+            bottom: 15px;
+            left: 15px;
+            color: white;
+            font-size: 20px;
+        }
+        /* Closable button inside the expanded image */
+        
+        .closebtn25 {
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            color: white;
+            font-size: 35px;
+            cursor: pointer;
+        }
     </style>
 
 
@@ -129,7 +177,7 @@
         <div class="container d-flex flex-column justify-content-center align-items-center text-center position-relative" data-aos="zoom-out">
             <img src="assets/img/hero-carousel/BococINC.png" class="img-fluid animated">
             <h2><span>Brothers of Christ of Banneux, Inc.</span></h2>
-            <p>Sharing Christ's Home.</p>
+            <p>Sharing Christ Home.</p>
             <div class="d-flex">
                 <a href="#about" class="btn-get-started scrollto">Show more</a>
             </div>
@@ -307,10 +355,10 @@
                         self-efficient individuals in the future and to provide clean and adequate residence. The training entails holistic approach with emphasis on all aspects; physical, mental, moral, spiritual, emotional and social under the supervision
                         of the Director, registered social workers, Religious Brothers and Instructors.
                     </p>
-                    <button onclick="myFunction()" id="myBtn">See more.</button>
+                    <button onclick="myFunction2()" id="myBtn">See more.</button>
 
                     <script>
-                        function myFunction() {
+                        function myFunction2() {
 
                             var lessText = document.getElementById("shortOP");
                             var moreText = document.getElementById("longOP");
@@ -398,29 +446,46 @@
             <div id="myModal" class="modal">
 
                 <!-- Modal content -->
-                <div class="modal-content col-xl-12 col-md-12">
+                <div class="modal-content">
                     <span class="close">&times;</span>
-                    <img id="pic1" style="display: block;" src="assets/img/bcbi/EIM1.JPG">
-                    <img id="pic2" style="display: none;" src="assets/img/bcbi/EIM2.jpg">
-                    <button onclick="bot()" id="bott">Next</button>
+
+                    <div class="row25">
+                        <div class="column25">
+                            <img src="/assets/img/bcbi/galery/als.jpg" id="defimg25" style="width:100%" onclick="myFunction25(this);">
+                            <h3 style="">Alternative Learning System</h3>
+                        </div>
+                        <div class="column25">
+                            <img src="/assets/img/bcbi/galery/elec.jpg" style="width:100%;" onclick="myFunction25(this);">
+                            <h3 style="">Electrical Installation and Maintenance NC II</h3>
+                        </div>
+                        <div class="column25">
+                            <img src="/assets/img/bcbi/galery/smaw.jpg" style="width:100%" onclick="myFunction25(this);">
+                            <h3 style="">Shielded Metal Arc in Welding NC I/NC II</h3>
+                        </div>
+                        <div class="column25">
+                            <img src="/assets/img/bcbi/galery/jp.jpg" style="width:100%" onclick="myFunction25(this);">
+                            <h3 style="">Job Placement</h3>
+                        </div>
+                    </div>
+
+                    <div class="container25">
+                        <span onclick="this.parentElement.style.display='none'" class="closebtn25">&times;</span>
+                        <img id="expandedImg25" style="width:100%">
+                        <div id="imgtext25"></div>
+                    </div>
 
                     <script>
-                        function bot() {
+                        var expandImg25 = document.getElementById("expandedImg25");
+                        var imgs25 = document.getElementById("defimg25");
+                        expandImg25.src = imgs25.src;
+                        expandImg25.parentElement.style.display = "block";
 
-                            var pic1 = document.getElementById("pic1");
-                            var pic2 = document.getElementById("pic2");
-
-                            var bott = document.getElementById("bott");
-
-                            if (pic2.style.display === "none") {
-                                pic2.style.display = "block";
-                                pic1.style.display = "none";
-                                bott.innerHTML = "Previous";
-                            } else {
-                                pic2.style.display = "none";
-                                pic1.style.display = "block";
-                                bott.innerHTML = "Ne    xt";
-                            }
+                        function myFunction25(imgs25) {
+                            var expandImg25 = document.getElementById("expandedImg25");
+                            var imgText25 = document.getElementById("imgtext25");
+                            expandImg25.src = imgs25.src;
+                            imgText.innerHTML = imgs25.alt;
+                            expandImg25.parentElement.style.display = "block";
                         }
                     </script>
                 </div>
@@ -462,9 +527,7 @@
                 <!-- Modal content -->
                 <div class="modal-content1">
                     <span class="close1">&times;</span>
-                    <!--<img id="pop1" style="display: block;" src="assets/img/bcbi/pwdpop1.JPG">-->
-                    <!--<img id="pop2" style="display: none;" src="assets/img/bcbi/pwdpop2.JPG">-->
-                    <!-- The four columns -->
+
                     <div class="row24">
                         <div class="column24">
                             <img src="/assets/img/bcbi/galery/pwdhome1.jpg" id="defimg" style="width:100%" onclick="myFunction(this);">
@@ -482,8 +545,8 @@
                             <img src="/assets/img/bcbi/galery/pwdspirit.jpg" style="width:100%" onclick="myFunction(this);">
                             <h3 style="">Spiritual Services</h3>
                         </div>
-
                     </div>
+
 
                     <div class="container24">
                         <span onclick="this.parentElement.style.display='none'" class="closebtn24">&times;</span>
@@ -503,29 +566,6 @@
                             expandImg.src = imgs.src;
                             imgText.innerHTML = imgs.alt;
                             expandImg.parentElement.style.display = "block";
-                        }
-                    </script>
-
-
-                    <!--<button onclick="popop()" id="popp">Next</button>-->
-
-                    <script>
-                        function popop() {
-
-                            var pop1 = document.getElementById("pop1");
-                            var pop2 = document.getElementById("pop2");
-
-                            var popp = document.getElementById("popp");
-
-                            if (pop2.style.display === "none") {
-                                pop2.style.display = "block";
-                                pop1.style.display = "none";
-                                popp.innerHTML = "Previous";
-                            } else {
-                                pop2.style.display = "none";
-                                pop1.style.display = "block";
-                                popp.innerHTML = "Next";
-                            }
                         }
                     </script>
                 </div>
