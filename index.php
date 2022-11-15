@@ -46,30 +46,30 @@
             padding: 10px;
         }
         /* Style the images inside the grid */
-
+        
         .column24 img {
             opacity: 0.8;
             cursor: pointer;
         }
-
+        
         .column24 img:hover {
             opacity: 1;
         }
         /* Clear floats after the columns */
-
+        
         .row24:after {
             content: "";
             display: table;
             clear: both;
         }
         /* The expanding image container */
-
+        
         .container24 {
             position: relative;
             display: none;
         }
         /* Expanding image text */
-
+        
         #imgtext24 {
             position: absolute;
             bottom: 15px;
@@ -78,7 +78,7 @@
             font-size: 20px;
         }
         /* Closable button inside the expanded image */
-
+        
         .closebtn24 {
             position: absolute;
             top: 10px;
@@ -87,37 +87,37 @@
             font-size: 35px;
             cursor: pointer;
         }
-
+        
         .column25 {
             float: left;
             width: 25%;
             padding: 10px;
         }
         /* Style the images inside the grid */
-
+        
         .column25 img {
             opacity: 0.8;
             cursor: pointer;
         }
-
+        
         .column25 img:hover {
             opacity: 1;
         }
         /* Clear floats after the columns */
-
+        
         .row25:after {
             content: "";
             display: table;
             clear: both;
         }
         /* The expanding image container */
-
+        
         .container25 {
             position: relative;
             display: none;
         }
         /* Expanding image text */
-
+        
         #imgtext25 {
             position: absolute;
             bottom: 15px;
@@ -126,7 +126,7 @@
             font-size: 20px;
         }
         /* Closable button inside the expanded image */
-
+        
         .closebtn25 {
             position: absolute;
             top: 10px;
@@ -484,7 +484,7 @@
                             var expandImg25 = document.getElementById("expandedImg25");
                             var imgText25 = document.getElementById("imgtext25");
                             expandImg25.src = imgs25.src;
-                            imgText.innerHTML = imgs25.alt;
+                            imgText25.innerHTML = imgs25.alt;
                             expandImg25.parentElement.style.display = "block";
                         }
                     </script>
