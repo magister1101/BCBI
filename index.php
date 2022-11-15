@@ -46,30 +46,30 @@
             padding: 10px;
         }
         /* Style the images inside the grid */
-        
+
         .column24 img {
             opacity: 0.8;
             cursor: pointer;
         }
-        
+
         .column24 img:hover {
             opacity: 1;
         }
         /* Clear floats after the columns */
-        
+
         .row24:after {
             content: "";
             display: table;
             clear: both;
         }
         /* The expanding image container */
-        
+
         .container24 {
             position: relative;
             display: none;
         }
         /* Expanding image text */
-        
+
         #imgtext24 {
             position: absolute;
             bottom: 15px;
@@ -78,7 +78,7 @@
             font-size: 20px;
         }
         /* Closable button inside the expanded image */
-        
+
         .closebtn24 {
             position: absolute;
             top: 10px;
@@ -87,37 +87,37 @@
             font-size: 35px;
             cursor: pointer;
         }
-        
+
         .column25 {
             float: left;
             width: 25%;
             padding: 10px;
         }
         /* Style the images inside the grid */
-        
+
         .column25 img {
             opacity: 0.8;
             cursor: pointer;
         }
-        
+
         .column25 img:hover {
             opacity: 1;
         }
         /* Clear floats after the columns */
-        
+
         .row25:after {
             content: "";
             display: table;
             clear: both;
         }
         /* The expanding image container */
-        
+
         .container25 {
             position: relative;
             display: none;
         }
         /* Expanding image text */
-        
+
         #imgtext25 {
             position: absolute;
             bottom: 15px;
@@ -126,7 +126,7 @@
             font-size: 20px;
         }
         /* Closable button inside the expanded image */
-        
+
         .closebtn25 {
             position: absolute;
             top: 10px;
@@ -451,7 +451,7 @@
 
                     <div class="row25">
                         <div class="column25">
-                            <img src="/assets/img/bcbi/galery/als.jpg" id="defimg25" style="width:100%" onclick="myFunction25(this);">
+                            <img src="/assets/img/bcbi/galery/als.JPG" id="defimg25" style="width:100%" onclick="myFunction25(this);">
                             <h3 style="">Alternative Learning System</h3>
                         </div>
                         <div class="column25">
@@ -459,7 +459,7 @@
                             <h3 style="">Electrical Installation and Maintenance NC II</h3>
                         </div>
                         <div class="column25">
-                            <img src="/assets/img/bcbi/galery/smaw.jpg" style="width:100%" onclick="myFunction25(this);">
+                            <img src="/assets/img/bcbi/galery/smaw.JPG" style="width:100%" onclick="myFunction25(this);">
                             <h3 style="">Shielded Metal Arc in Welding NC I/NC II</h3>
                         </div>
                         <div class="column25">
