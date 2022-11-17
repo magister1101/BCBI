@@ -348,7 +348,7 @@
         <!-- End About Section -->
 
         <!-- ======= About Section ======= -->
-        <section id="aboutBOC" class="aboutBOC" style="border: 1px solid grey; margin: 150px; border-radius: 25px">
+        <section id="aboutBOC" class="aboutBOC" style="border: 1px solid grey; margin: 10%; border-radius: 25px">
             <div class="container" data-aos="fade-up">
 
                 <div class="section-header">
