@@ -352,6 +352,10 @@
             <div class="container" data-aos="fade-up">
 
                 <div class="section-header">
+                    <h2>Brothers of Christ</h2>
+                </div>
+
+                <div class="section-header">
                     <img src="/assets/img/bcbi/galery/brosh1.jpg" alt="" class="img-fluid">
                 </div>
 
