@@ -253,12 +253,12 @@
 
                 <div class="section-header">
                     <h2>About Us</h2>
-                    <p id="shortOP1" style="display: block; text-align: center;">BCBI is a religious congregation for boys founded by the servant of God Venerable Aloysius Schwartz to respond to the reality of poverty</p>
+                    <p id="shortOP1" style="display: block; text-align: center;">Brothers of Christ of Banneux Inc. (BCBI) is a religious congregation for boys founded by the servant of God Venerable Aloysius Schwartz to respond to the reality of poverty</p>
                     <p id="longOP1" style="display:none;">BCBI is a religious congregation for boys founded by the servant of God Venerable Aloysius Schwartz to respond to the reality of poverty, suffering and deprivation of the poorest of the poor. The BCBI in the Philippines is operating
                         as Social Welfare and Development Agency under the supervision of Department of Social Welfare and Development (DSWD) with SEC reg. #CN200815107 and license #DSWD -FO-IV-A L-00029-2020.The programs and services offered by BCBI
                         is 24 hours residential based services for Out of School Youth. The institution provides a comprehensive and integrated delivery of residential care services using interdisciplinary approach. The Brothers of Christ works primarily
-                        by establishing Brothers of Christ of Bannuex Inc. (boy’s town) that serves as boarding schools for deserving out of school youth students coming from poor families. The institution provides food, clothing, shelter, medical care
-                        and quality secondary education through Alternative Learning System and technical-vocational curriculum, all free of charge.
+                        by establishing Brothers of Christ of Bannuex Inc. That serves as boarding schools for deserving out of school youth students coming from poor families. The institution provides food, clothing, shelter, medical care and quality
+                        secondary education through Alternative Learning System and technical-vocational curriculum, all free of charge.
                     </p>
                     <button onclick="myFunction1()" id="myBtn1">See more.</button>
 
@@ -348,11 +348,15 @@
         <!-- End About Section -->
 
         <!-- ======= About Section ======= -->
-        <section id="aboutBOC" class="aboutBOC" style="border: 1px solid grey; margin: 10%; border-radius: 25px">
+        <section id="aboutBOC" class="aboutBOC" style="margin: 10%; border-radius: 25px">
             <div class="container" data-aos="fade-up">
 
                 <div class="section-header">
-                    <h2>Brothers of Christ</h2>
+                    <img src="/assets/img/bcbiboc.png" style="width:250px" class="img-fluid">
+                </div>
+
+                <div class="section-header">
+                    <h2>Brothers of Christ of Banneux</h2>
                 </div>
 
                 <div class="section-header">
@@ -428,7 +432,6 @@
 
 
                                 <p><i class="bi bi-check2"></i>Alternative Learning System for Junior High School and Elementary Level </p>
-                                <p><i class="bi bi-check2"></i>Technical Vocational Training </p>
                                 <p><i class="bi bi-check2"></i>Electrical Installation and Maintenance NC ll </p>
                                 <p><i class="bi bi-check2"></i>Shielded Metal Arc in Welding NC l and NC ll </p>
                                 <p><i class="bi bi-check2"></i>Job Placement </p>
@@ -455,7 +458,6 @@
 
                                 <!-- Trigger/Open The Modal -->
                                 <button id="modalbtn1" class="stretched-link"><h3>Person with Disabilities(Residents) and Elderly.</h3></button>
-
                                 <p><i class="bi bi-check2"></i>Homelife Services </p>
                                 <p><i class="bi bi-check2"></i>Dietary Services </p>
                                 <p><i class="bi bi-check2"></i>Health Services</p>
@@ -638,12 +640,13 @@
             <div class="container" data-aos="fade-up">
 
                 <div class="section-header">
-                    <img src="/assets/img/team/founder.jpg" style="border-radius:100px; border: 2px solid black; width:250px">
+                    <img src="/assets/img/team/founder.jpg" style="border-radius:100px; border: 2px solid black; width:250px" class="img-fluid">
                     <br>
                     <br>
-                    <h2>Our Founder</h2>
+                    <h2>Venerable Aloysius Schwarts <br>(September 18, 1930 - March 16, 1992) Founder
+                    </h2>
                     <p>
-                        The servant of God, Venerable Aloysius Schwarts was born in Washington D.C. on September 18, 1930 to Louis Schwarts and Cedelia Bourassa. He grew up with the idea of becoming a priest and with the passage of time, this idea became more specific he would
+                        The Servant of God, Venerable Aloysius Schwarts was born in Washington D.C. on September 18, 1930 to Louis Schwarts and Cedelia Bourassa. He grew up with the idea of becoming a priest and with the passage of time, this idea became more specific he would
                         become a secular priest, work as missionary and his apostolate would be to the poor and the needy.
                         <br> <br> In 1994, he entered in St. Charles Seminary in Maryland. He finished his B.A. Degree at Maryland College and then he joined with Societe des Auxiliares des Mission (S.A.M.) and studied his theology at Louvine Catholic
                         University in Belgium. He used to spend his vacation helping at the rag-picker’s camp. During his first visit to the shrine of the Virgin of The Poor, he felt inspired to dedicate his priesthood to the service of the poor, in fulfilment
