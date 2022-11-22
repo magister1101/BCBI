@@ -643,7 +643,7 @@
                     <img src="/assets/img/team/founder.jpg" style="border-radius:100px; border: 2px solid black; width:250px" class="img-fluid">
                     <br>
                     <br>
-                    <h2>Venerable Aloysius Schwarts <br>(September 18, 1930 - March 16, 1992) Founder
+                    <h2>Venerable Aloysius Schwarts <br>(September 18, 1930 - March 16, 1992) <br> Founder
                     </h2>
                     <p>
                         The Servant of God, Venerable Aloysius Schwarts was born in Washington D.C. on September 18, 1930 to Louis Schwarts and Cedelia Bourassa. He grew up with the idea of becoming a priest and with the passage of time, this idea became more specific he would
