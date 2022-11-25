@@ -352,7 +352,7 @@
             <div class="container" data-aos="fade-up">
 
                 <div class="section-header">
-                    <img src="/assets/img/bcbiboc.png" style="width:250px" class="img-fluid">
+                    <img src="assets/img/bcbiboc.png" style="width:250px" class="img-fluid">
                 </div>
 
                 <div class="section-header">
@@ -360,11 +360,11 @@
                 </div>
 
                 <div class="section-header">
-                    <img src="/assets/img/bcbi/galery/brosh1.jpg" alt="" class="img-fluid">
+                    <img src="assets/img/bcbi/galery/brosh1.jpg" alt="" class="img-fluid">
                 </div>
 
                 <div class="section-header">
-                    <img src="/assets/img/bcbi/galery/brosh2.jpg" alt="" class="img-fluid">
+                    <img src="assets/img/bcbi/galery/brosh2.jpg" alt="" class="img-fluid">
                 </div>
 
 
@@ -641,7 +641,7 @@
             <div class="container" data-aos="fade-up">
 
                 <div class="section-header">
-                    <img src="/assets/img/team/founder.jpg" style="border-radius:100px; border: 2px solid black; width:250px" class="img-fluid">
+                    <img src="assets/img/team/founder.jpg" style="border-radius:100px; border: 2px solid black; width:250px" class="img-fluid">
                     <br>
                     <br>
                     <h2>Venerable Aloysius Schwarts <br>(September 18, 1930 - March 16, 1992) <br> Founder
@@ -842,11 +842,7 @@
                 </div>
 
                 <div class="social-links order-first order-lg-last mb-3 mb-lg-0 ">
-                    <a href="# " class="twitter "><i class="bi bi-twitter "></i></a>
-                    <a href="# " class="facebook "><i class="bi bi-facebook "></i></a>
-                    <a href="# " class="instagram "><i class="bi bi-instagram "></i></a>
-                    <a href="# " class="google-plus "><i class="bi bi-skype "></i></a>
-                    <a href="# " class="linkedin "><i class="bi bi-linkedin "></i></a>
+                    <a href="https://www.facebook.com/BOCPhilippines" target="_blank" class="facebook "><i class="bi bi-facebook "></i></a>
                 </div>
 
             </div>
